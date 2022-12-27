@@ -1,4 +1,7 @@
 # First Task: Vue 3.0 Setup
+# Vue should be included
+# if possible eslint
+# and mandatory TS config
 
 
 
