@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-deprecated-slot-attribute -->
 <script setup lang="ts">
 defineProps<{
   msg: string;
@@ -14,6 +15,11 @@ defineProps<{
       What's next?
     </h3>
     <h3>This will be my new Log Management System, you will see!</h3>
+    <br>
+    <wb-button variant="primary" size="m">
+      <wb-icon slot="icon" name="bds/chevron-right/24"></wb-icon>
+      Send Request
+    </wb-button>
   </div>
 </template>
 

@@ -12,6 +12,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@workbench/core": "https://assets.oneweb.mercedes-benz.com/plugin/workbench/core/7.8.1/dist.tgz",
     "pinia": "^2.0.28",
     "url": "^0.11.0",
     "vue": "^3.2.45",
